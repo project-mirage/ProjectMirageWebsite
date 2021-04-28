@@ -9,3 +9,7 @@ html {
 .brand-color {
     color: #F2AA4C;
 }
+
+.dropshadow {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .08)!important;
+}
