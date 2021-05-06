@@ -3,21 +3,39 @@ html {
 }
 
 .brand-bgcolor {
-    background-color: #F2AA4C;
+    background-color: #f2aa4c;
 }
 
 .brand-color {
-    color: #F2AA4C;
+    color: #f2aa4c;
 }
 
 .dropshadow {
-    box-shadow: 0 4px 16px rgba(0, 0, 0, .08)!important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08) !important;
 }
 
 .dropshadow-inverse {
-    box-shadow: 0 -4px 16px rgba(0, 0, 0, .08)!important;
+    box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.08) !important;
 }
 
 .hide {
-    display: none
+    opacity: 0;
+}
+
+.successBanner {
+    position: fixed;
+    width: 100vw;
+    bottom: 10px;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+    }
 }
